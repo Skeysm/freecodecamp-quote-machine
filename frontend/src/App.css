@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Poppins:wght@100&family=Roboto+Mono:wght@100&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: orange;
+  height: 100%;
+}
+
+#quote-box {
+  background-color: white;
+  color: black;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+  padding: 30px;
+  height: 200px;
+  width: 500px;
+}
+
+#text {
+  font-family: Oswald, "sans-serif";
+  font-size: 27px;
+}
+
+#author {
+  font-family: Roboto, "sans-serif";
+  position: absolute;
+  right: 50px;
+  bottom: 80px;
+  font-size: 20px;
+}
+
+#new-quote {
+  position: absolute;
+  right: 50px;
+  bottom: 25px;
+  padding: 7px;
+  font-family: Oswald, "sans-serif";
+  font-size: 15px;
+  background-color: grey;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+#tweet-quote {
+  position: absolute;
+  left: 50px;
+  bottom: 20px;
+  font-size: 35px;
+  color: orange;
+}
+
+#quote-icon {
+  color: orange;
+  margin-right: 5px;
+  font-size: 25px;
+}
+
